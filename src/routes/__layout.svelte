@@ -7,7 +7,7 @@
     {name: "about", url:"/about"},
 ]}>
     
-    <img src="./images/logo.svg" height="75%" alt="soVes"/>
+    <img src="/images/logo.svg" height="75%" alt="soVes"/>
     <h1>soVes</h1>
 </Header>
 

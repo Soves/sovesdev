@@ -57,7 +57,7 @@
 		width: 100%;
         height: 400px;
 
-		background-image: url('./images/mtn_1.svg');
+		background-image: url('/images/mtn_1.svg');
 		background-position: bottom;
 		background-size: 600px;
 		background-repeat: repeat-x;
@@ -69,7 +69,7 @@
 		width: 100%;
         height: 400px;
 
-		background-image: url('./images/mtn_2.svg');
+		background-image: url('/images/mtn_2.svg');
 		background-position: bottom;
 		background-size: 600px;
 		background-repeat: repeat-x;
@@ -83,7 +83,7 @@
 		width: 100%;
 		height: 400px;
         
-		background-image: url('./images/mtn_3.svg');
+		background-image: url('/images/mtn_3.svg');
 		background-position: bottom;
 		background-size: 600px;
 		background-repeat: repeat-x;
@@ -106,7 +106,7 @@
 		width: 100%;
 		height: 100%;
 
-		background-image: url('./images/solar.svg');
+		background-image: url('/images/solar.svg');
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 
 		max-width: 150px;
 
-		background-image: url('./images/logo_anim.svg');
+		background-image: url('/images/logo_anim.svg');
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -141,7 +141,7 @@
 
 		max-width: 150px;
 
-		background-image: url('./images/logo_plain.svg');
+		background-image: url('/images/logo_plain.svg');
 		background-position: center;
 		background-size: contain;
 		background-repeat: no-repeat;

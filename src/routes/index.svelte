@@ -7,19 +7,19 @@
 			images: [
 				{
 					title: 'Wally and the FANTASTIC PREDATORS',
-					path: './images/games/Wally.jpg',
+					path: '/images/games/Wally.jpg',
 					link: 'test',
 					height: 0.5
 				},
 				{
 					title: 'Craft Jam',
-					path: './images/games/Craft.gif',
+					path: '/images/games/Craft.gif',
 					link: 'test',
 					height: 1
 				},
 				{
 					title: '-Sprout-',
-					path: './images/games/Sprout.jpg',
+					path: '/images/games/Sprout.jpg',
 					link: 'test',
 					height: 0.5
 				}
@@ -29,13 +29,13 @@
 			images: [
 				{
 					title: 'Purple Desert',
-					path: './images//games/Purple.gif',
+					path: '/images/games/Purple.gif',
 					link: 'test',
 					height: 1
 				},
 				{
 					title: "Duck 'n ufo",
-					path: './images/games/Duck.jpg', //find a higher rez pic
+					path: '/images/games/Duck.jpg', //find a higher rez pic
 					link: 'test',
 					height: 1.1
 				}
