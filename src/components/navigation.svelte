@@ -36,6 +36,8 @@
         padding: 0;
         align-items: center;
         text-align: center;
+
+        filter: drop-shadow(1px 10px 20px);
     }
     
     .pages{

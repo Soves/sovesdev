@@ -26,6 +26,10 @@
 </script>
 
 <main lang="ts">
+    <div class="{navActive === true ? 'nav active' : 'nav'}">
+        <Navigation pages={pages} pageCallback={toggleNav}/>
+    </div>
+
     <header>
         <div class="start">
             <slot></slot>
@@ -39,10 +43,7 @@
                 <div class="{navActive === true ? 'bar c active' : 'bar c'}"/>
             </div>
         </div>
-        
-        <div class="{navActive === true ? 'nav active' : 'nav'}">
-            <Navigation pages={pages} pageCallback={toggleNav}/>
-        </div>
+
     </header>
 
 
@@ -61,7 +62,7 @@
         position: fixed;
         top: 0;
 
-        z-index: 1;
+        z-index: 10;
         
     }
 
@@ -94,7 +95,11 @@
     }
 
     .nav {
-        position: absolute;
+        background-color: #0a0015;
+        position: fixed;
+
+        z-index: 10;
+
         flex-direction: row;
         right: -100vw;
         width: 25vw;
@@ -102,10 +107,8 @@
         top: 50px;
 
         transition: 1s;
-        
-        
-        
-        transform-origin: top right;
+
+        visibility: hidden;
     }
 
     @media only screen and (max-width: 600px) {
@@ -128,6 +131,8 @@
         justify-content: center;
 
         flex-direction: column;
+
+        visibility: hidden;
     }
 
     .bar {
@@ -139,6 +144,7 @@
         border-radius: 50px;
 
         transition: 1s;
+        
         
     }
 
